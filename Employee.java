@@ -1,4 +1,4 @@
-public class Employee
+class Employee
 {
     int id;
     String name;
@@ -14,11 +14,11 @@ public class Employee
         System.out.println(id+" "+name+" "+salary+"\n");
     }
 }
-class TestThis
+class Main
 {
     public static void main(String[] args) {
-        Employee emp1= new Employee(111,"Rishav",5000.25f);
-        Employee emp2= new Employee(112,"Parasar",5000.24f);
+        Employee emp1= new Employee(111,"Jack",5000.25f);
+        Employee emp2= new Employee(112,"Sparrow",5000.24f);
         emp1.display();
         emp2.display();
     }
