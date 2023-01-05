@@ -1,4 +1,4 @@
- public class CIRCLE
+class CIRCLE
 {
     int x=0,y=0;
     float radius;
@@ -8,7 +8,8 @@
         System.out.println("Radius of the circle is : " + radius );
     }
 }
-class input
+
+class Main
 {
     public static void main(String[] args) {
         CIRCLE c1 = new CIRCLE();
