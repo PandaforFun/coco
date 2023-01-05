@@ -6,8 +6,8 @@ public class Student1
     //Student Constructor
     public  Student1()
     {
-        firstName="Rishav";
-        lastName="Parasar";
+        firstName="Jack";
+        lastName="sparrow";
         age=20;
     }
 
