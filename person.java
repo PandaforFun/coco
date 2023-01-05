@@ -1,14 +1,11 @@
-public class person
+class Main
 {
     String name;
     int age;
     int salary;
-}
-class practical_2
-{
     public static void main(String[] args)
     {
-        person pr1 = new person();//object creation
+        Main pr1 = new Main();//object creation
         pr1.name= "Jack Sparrow";
         pr1.age=19;
         pr1.salary=35000;
