@@ -1,9 +1,9 @@
-public class Student2
+class Main
 {
     int id;
     String name;
     //creating a parameterized Constructor
-    Student2(int i, String n)
+    Main(int i, String n)
     {
         id=i;
         name=n;
@@ -15,8 +15,8 @@ public class Student2
     }
 
     public static void main(String[] args) {
-        Student2 s1 = new Student2(111,"Jack");
-        Student2 s2 = new Student2(112,"Sparrow");
+        Main s1 = new Main(111,"Jack");
+        Main s2 = new Main(112,"Sparrow");
         s1.display();
         s2.display();
     }
