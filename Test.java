@@ -1,4 +1,4 @@
-public class Test
+class Test
 {
     public int x,y;
     public void show()
@@ -14,7 +14,7 @@ class use extends Test
         y=20;
     }
 }
-class pract7
+class Main
 {
     public static void main(String[] args)
     {
