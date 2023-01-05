@@ -11,7 +11,7 @@ class Rectangle implements Polygon
         System.out.println("The area of the rectangle is "+(length*breadth));
     }
 }
-public class Rectangle_interface
+class Main
 {
     public static void main(String[] args)
     {
