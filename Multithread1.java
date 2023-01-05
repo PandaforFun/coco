@@ -15,7 +15,7 @@ class MultithreadingDemo extends Thread
     }
 }
 //Main class
-public class Multithread1
+class Main
 {
     public static void main(String[] args)
     {
