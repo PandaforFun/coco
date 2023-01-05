@@ -1,11 +1,11 @@
-public class Student3
+class Main
 {
     String firstName;
     String lastName;
     int age;
 
     public static void main(String[] args) {
-        Student3 student = new Student3();
+        Main student = new Main();
         student.firstName="Jack";
         student.lastName="Sparrow";
         student.age=20;
